@@ -1,0 +1,91 @@
+.picNav {
+    width: 160px; 
+    height: 100px; 
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+
+  .picNav img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    background-image: url('../../assets/picCreate.jpg');
+    background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  border-radius: 20px;
+  padding: 20px; 
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: "GoodDog New W00 Regular";
+ 
+  }
+  .input{
+   
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        padding: 8px; 
+        outline: none; 
+        background-color: rgba(128, 128, 128, 0.352); 
+      
+  }
+  .button {
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 8px 12px; 
+    outline: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+  };
+  .select {
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 8px; 
+    outline: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+    appearance: none; 
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 12l7-8v10zm24 0l-7-8v10zM16 22l-7-8h14zm7-8l-7 8H9z'/%3E%3C/svg%3E"); 
+    background-repeat: no-repeat; 
+    background-position: right center; 
+    background-size: 12px; 
+  }
+  
+  
+  .button:hover {
+    background-color: #f0f0f0; 
+  }
+  
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+ 
+ .inputError {
+    border: 1px solid red;
+  }
+  
+ 
+  .randomImageButton {
+    margin-left: 10px;
+  }
+
+  .buttonDelete{
+    background-color: rgba(255, 0, 0, 0.237);
+    padding: 5px 9px
+  }
+  .buttonOk{
+    background-color: rgba(103, 206, 196, 0.418);
+  }
+
+  .buttonRandom{
+    background-color: rgba(137, 76, 184, 0.327);
+  }

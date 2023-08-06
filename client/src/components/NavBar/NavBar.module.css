@@ -1,0 +1,46 @@
+.navBar{
+   height: 5rem;
+   width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 3px;
+}
+.picNav{
+    width: 190px; 
+    height: 110px;
+    margin-right: 10px;
+     padding: 5px;
+     cursor: pointer; 
+}
+.navLinkContainer{
+    display: flex;
+  align-items: center;
+}
+.navLink{
+    text-decoration: none;
+    font-family: "GoodDog New W00 Regular";
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.897);
+   
+    border-radius: 15px;
+    padding:3px;
+    padding-block: 3px;
+    &:hover {
+        background-color: var(--green);
+        color: #fff;
+        cursor: pointer;
+    }
+}
+.createLink{
+    margin-left: 15px;
+}
+
+
+
+
+

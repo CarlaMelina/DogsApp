@@ -1,0 +1,53 @@
+.card{
+  flex: 1 0 calc(25% - 30px); 
+  width: 80%;
+  max-width: 250px;
+  background-color: rgba(219, 194, 153, 0.313);
+  border: 1px solid #f4efef;
+  transition: gray 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 3px;
+  ;}
+  .card:hover {
+    background-color: rgba(255, 255, 255, 0.6); 
+    border: 2px solid whitesmoke
+    
+  }
+   
+  
+.pic{
+  width: 80%;
+  height: auto;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  
+  }
+  .name{
+    font-family: "GoodDog New W00 Regular";
+        color: rgba(0, 0, 0, 0.845);
+    }
+    .title{
+      font-family: "GoodDog New W00 Regular";
+        color: rgba(0, 0, 0, 0.845);
+    }
+    .list{
+         font-family: "GoodDog New W00 Regular";
+        color: rgba(0, 0, 0, 0.845);
+        
+      display: inline-block;
+      margin-right: 5px; 
+      border-radius: 15px; 
+      background-color: rgba(50, 220, 152, 0.375);
+      padding: 5px 12px; 
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 3px;
+    }
+    .subtitle{
+        font-family: 'Cabin Sketch';
+        font-size: xx-large;
+        font-weight: bolder
+    }
+
+ 

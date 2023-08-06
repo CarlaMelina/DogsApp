@@ -1,0 +1,30 @@
+.searchBar{
+    display: flex;
+    
+    
+};
+.inputSearch{
+    border: solid 1px black;
+    
+    color: black;
+    margin-left: 10px;
+    width: 2rem;
+    font-size: 15px;
+    padding: 5px;
+    width: fit-content;
+   border-radius: 13% 0% 0% 13% / 76% 99% 100% 70% ;
+    
+    
+}
+.submit{
+    Width: 30px;
+    border-radius: 
+    0% 40% 34% 0% / 0% 45% 42% 0%;
+   border: solid 2px rgb(60, 60, 60);
+    background: rgba(255, 255, 255, 0.69);
+
+}
+.submit:hover {
+    transform: translateY(-1px);
+    box-shadow: 2px 2px 6px var(--green);
+}

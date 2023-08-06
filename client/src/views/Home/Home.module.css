@@ -1,0 +1,35 @@
+
+.container{
+    
+    width: calc((100% / 4) - 30px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 15px auto;
+    max-width: 1200px;
+   
+    background-image: url("../../assets/Background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%; 
+    background-position: center 85%;
+
+    
+}
+.filtros{
+    font-family: "GoodDog New W00 Regular";
+    display: flex;
+    justify-content: center; 
+    padding: 15px;
+    padding-top: 15px;
+    justify-content: space-around
+}
+    
+.subtitle{
+    font-family: 'Cabin Sketch';
+    font-size: xx-large;
+    padding-bottom: 15px;
+}
