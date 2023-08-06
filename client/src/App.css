@@ -1,38 +1,70 @@
+@font-face {
+  font-family: "GoodDog New W00 Regular";
+  src: url("https://db.onlinewebfonts.com/t/ca32b369590c4b105ed8cbdf1f8da722.eot");
+  src: url("https://db.onlinewebfonts.com/t/ca32b369590c4b105ed8cbdf1f8da722.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/ca32b369590c4b105ed8cbdf1f8da722.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/ca32b369590c4b105ed8cbdf1f8da722.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/ca32b369590c4b105ed8cbdf1f8da722.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/ca32b369590c4b105ed8cbdf1f8da722.svg#GoodDog New W00 Regular")format("svg");
+}
+@font-face {
+  font-family: 'Cabin Sketch';
+  src: url('../src/assets/fonts/CabinSketch-Regular.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;0,500;1,700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  /*padding: 0;/* para que no quede con bordes de sobra*/
+}
+:root {
+  --brown:rgba(219, 194, 153, 0.313);
+  --green: rgba(50, 220, 152, 0.375);
+  --bg-color: #fafafa;
+ 
+  --bg-border: 3px dashed greenyellow ;
+  
+  
+  
+  --bg-gradient-pink-green:  linear-gradient(
+    149deg,
+     rgba(231,130,40,0.5746673669467788) 0%,
+     rgba(245,125,218,0.5410539215686274) 35%,
+     rgba(0,255,214,0.45702030812324934) 100%
+     );
+
+  
+  --bg-color-dark-red: rgb(181, 10, 10);
+  --bg-border2: 2px dashed var(--bg-color-dark-red) ;
+  --dar-see-gree: rgb(143, 188, 139);
+    --medium-aquamarine: rgb(102, 205, 170);
+    --gold: rgb(255, 215, 0);
+    --dark-magenta: rgb(139, 0, 139);
+    --marron: #eeda95;
+    
+    --verde-light: #d8f171;
+    --gris: #9a927b;
+    --verde-oliva: #556b2f; 
+    --lila: #8a6a6b;
+    --morado: #805566;
+    --black: #000000;
+    --white: #ffffff;
+    
+}
+body {
+  font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
